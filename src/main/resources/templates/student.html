@@ -5,8 +5,44 @@
 <div th:replace="base :: navlinks" />
 <main role="main" class="container">
     <div class="jumbotron">
-        <h1 class="display-1 text-center">Student Profile</h1>
+        <h1 class="display-1 text-center">Ann Sam</h1>
 <!--        <h6 class="lead">Here you will find a list of courses and a student profile.</h6>-->
+        <div class="card">
+            <div class="card-header">
+                Official Transcript
+            </div>
+            <div class="card-body">
+
+                <h6 class="card-title">Major: CS   Over all GPA 4.0 </h6>
+                <div class="card-text">
+                    <table class="table table-bordered table-dark">
+                        <thead>
+                        <tr>
+                            <th scope="col">Courses</th>
+                            <th scope="col">GPA</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">Java</th>
+                            <td>A</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Python</th>
+                            <td>A</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">HTML</th>
+                            <td colspan="2">A</td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+
+                </div>
+                <a href="/" class="btn btn-primary">home page</a>
+            </div>
+        </div>
     </div>
 </main>
 <div th:replace="base :: footer" />
@@ -15,10 +51,3 @@
 </body>
 </html>
 
-The student page should have:
-
-a list of enrolled classes for three semesters, including the current semester
-a transcript
-courses taken
-grades
-and their overall GPA
