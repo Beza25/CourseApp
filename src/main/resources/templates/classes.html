@@ -8,8 +8,44 @@
 <div th:replace="base :: navlinks" />
 <main role="main" class="container">
     <div class="jumbotron">
-
-
+        <h5>Courses</h5>
+        <table class="table table-bordered table-dark">
+            <thead>
+            <tr>
+                <th scope="col">Course Title</th>
+                <th scope="col">Course ID</th>
+                <th scope="col">Department ID</th>
+                <th scope="col">Availability</th>
+                <th scope="col">Instructor</th>
+                <th scope="col">Description</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Java</td>
+                <td>0101</td>
+                <td>Eng.</td>
+                <td>open</td>
+                <td>Ms. Jenn</td>
+                <td>A awesome Java course</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>0102</td>
+                <td>CS</td>
+                <td>closed</td>
+                <td>Ms. Betty</td>
+                <td>An amazing Python course</td>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>0103</td>
+                <td>CS</td>
+                <td>open</td>
+                <td>Mr. Victor</td>
+                <td>HTML and CSS course</td>
+            </tr>
+        </table>
     </div>
 </main>
 
