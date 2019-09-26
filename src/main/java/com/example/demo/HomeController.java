@@ -8,4 +8,6 @@ public class HomeController {
     @RequestMapping("/")
     public String index(){return "index";}
 
+    @RequestMapping("/student")
+    public String student(){return "student";}
 }
