@@ -11,4 +11,6 @@ public class HomeController {
     @RequestMapping("/classes")
     public String classes(){return "classes";}
 
+    @RequestMapping("/student")
+    public String student(){return "student";}
 }
